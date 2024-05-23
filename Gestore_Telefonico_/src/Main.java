@@ -241,10 +241,10 @@ public class Main {
                         if (!visibili) {
                             System.out.println("Non ci sono chiamate effettuate da contatti visibili per questo utente.");
                         }
-                        Chiamata chiamata = trovaChiamata(elencoChiamate, nomeChiamante, cognomeChiamante, numChiamate);
+                        /*Chiamata chiamata = trovaChiamata(elencoChiamate, nomeChiamante, cognomeChiamante, numChiamate);
                         if (chiamata != null) {
                             System.out.println("Chiamato: " + chiamata.getCognomeChiamato() + " " + chiamata.getNomeChiamato());
-                        }
+                        }*/
 
 
                     }
@@ -363,12 +363,6 @@ public class Main {
         return null; // Se la chiamata non viene trovata, restituisci null
     }
 
-
-
-
-
-
 }
-
 
 
