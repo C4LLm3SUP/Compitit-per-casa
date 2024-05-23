@@ -233,7 +233,7 @@ public class Main {
                         System.out.println("Password errata. Visualizzerai solo i contatti chiamati visibili:");
                         boolean visibili = false;
                         for (int i = 0; i < numChiamate; i++) {
-                            if ((!gestore[i].nascosto) && (elencoChiamate[i] != null && elencoChiamate[i].getNomeChiamante().equals(nomeChiamante) && elencoChiamate[i].getCognomeChiamante().equals(cognomeChiamante))) {
+                             if((elencoChiamate[i] != null && elencoChiamate[i].getNomeChiamante().equals(nomeChiamante) && elencoChiamate[i].getCognomeChiamante().equals(cognomeChiamante))) {
                                 System.out.println("Chiamato: " + elencoChiamate[i].getCognomeChiamato() + " " + elencoChiamate[i].getNomeChiamato());
                                 visibili = true;
                             }
